@@ -85,7 +85,8 @@ a {
     letter-spacing: 0%;
     color: white;
 }
-.header-text-block{
+
+.header-text-block {
     margin: auto 2vh;
 }
 
@@ -445,7 +446,8 @@ h1 {
     font-size: 25px;
     color: rgba(155, 109, 68, 1);
 }
-.about-us-1-img{
+
+.about-us-1-img {
     position: relative;
     width: 529px;
     height: 288px;
@@ -454,7 +456,8 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.about-us-2-img{
+
+.about-us-2-img {
     position: absolute;
     left: -10vh;
     bottom: -5vh;
@@ -466,13 +469,15 @@ h1 {
     background-position: center;
     border: 10px solid #212121;
 }
-.about-us-content-block{
+
+.about-us-content-block {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 12vh;
 }
-.videos{
+
+.videos {
     width: 60%;
     margin: 5vh auto 15vh auto;
     position: relative;
@@ -482,7 +487,8 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.videos-button-img{
+
+.videos-button-img {
     position: absolute;
     width: 113px;
     height: 113px;
@@ -493,6 +499,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .address-big-text,
 .address-descr-text {
     display: block;
@@ -567,9 +574,11 @@ h1 {
     flex-direction: row;
     justify-content: center;
 }
-.footer-rigth-block{
+
+.footer-rigth-block {
     gap: 5vh;
 }
+
 .footer-ul-mess-link {
     list-style: none;
     color: white;
@@ -607,8 +616,252 @@ h1 {
     padding: 6px 12px 6px 0px;
     background-color: white;
 }
+
 .number-a-f>img {
     margin-top: 0.5vh;
     height: 15px;
     width: 15px;
+}
+
+@media (max-width: 768px) {
+
+
+    .addres-map>div {
+        margin: 0;
+    }
+
+    .footer-content-block {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .footer-content-block>div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .div-orderly {
+        gap: 5vh;
+    }
+
+    .form-div {
+        width: 80%;
+        flex-direction: column;
+        margin: 1vh;
+    }
+
+    .form-div>div {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .header-big-img {
+        height: 40vh;
+    }
+
+    .simple-quote {
+        width: 80%;
+    }
+
+    .img-bottom-circles {
+        top: 35vh;
+        left: 20vh;
+    }
+
+    .head-main-element,
+    .nav-ul {
+        display: none;
+    }
+
+    .text-div {
+        margin: 0 1vh 0 0;
+    }
+
+    h1,
+    h2 {
+        width: fit-content;
+        display: inline-flex !important;
+        font-size: 26px;
+        line-height: 26px;
+        padding: 20px;
+    }
+
+    .main-span,
+    .main-ul-nav {
+        width: fit-content;
+        margin: 2vh;
+    }
+
+    .img-left-arrow-button,
+    .img-right-arrow-button {
+        top: 20vh;
+    }
+
+    .img-left-arrow-button {
+        left: 10vh;
+    }
+
+    .img-right-arrow-button {
+        right: 10vh
+    }
+
+    .burger-menu {
+        width: 30px;
+        height: 30px;
+        background: url("../image/menu.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-top: 1vh;
+    }
+
+    .header-mobi-div {
+        width: 80%;
+        margin: auto;
+        padding: 2vh 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .galery-first-img-block>li,
+    .hide-element-from-carusel,
+    .rigth-elem {
+        display: none;
+    }
+
+    .galery-first-img-block>li:first-child {
+        display: block;
+    }
+
+    .delivery-line {
+        width: 80%;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+
+    .delivery-element {
+        margin: auto !important;
+        width: 100%;
+    }
+
+    .delivery-block {
+        width: 90%;
+        margin: auto;
+    }
+
+    .delivery-line {
+        gap: 3vh;
+    }
+
+    .delivery-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vh;
+    }
+
+    .about-us-content-block {
+        flex-direction: column;
+    }
+
+    .videos-button-img {
+        top: 10vh;
+        left: 12vh;
+    }
+
+    .videos {
+        width: 80%;
+        height: 30vh;
+        margin: 5vh auto;
+    }
+
+    .our-stocks {
+        flex-direction: column;
+    }
+
+    .our-stocks>div {
+        margin: auto;
+        width: 100% !important;
+        height: 250px !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .our-stocks>div:last-child{
+        margin-top: 5vh;
+        width: 300px !important;
+        height: 300px !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .advantages-element-1-img,
+    .advantages-element-2-img,
+    .advantages-element-3-img,
+    .advantages-element-4-img,
+    .advantages-element-5-img,
+    .advantages-element-5-img {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .about-us-1-img {
+        max-width: 430px;
+    }
+
+    .delivery-element:last-child {
+        padding-right: 0;
+    }
+
+    .our-advantages-element-span {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .our-advantages {
+        height: 60vh;
+    }
+
+    h1 {
+        margin: auto 10vh;
+        text-align: center;
+    }
+
+    .about-us-text-block {
+        display: none;
+    }
+
+    .mobi-text-block {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-us-2-img {
+        left: -10vh;
+        bottom: -0.5vh;
+    }
+
+    .about-us-content-block {
+        gap: 5vh;
+    }
+    .left-arrow-button-carusel,
+    .right-arrow-button-carusel{
+        top: 77vh;
+    }
+    .left-arrow-button-carusel{
+        left: 5vh;
+    }
+    .right-arrow-button-carusel{
+        right: 5vh;
+    }
+    .galery-first-img-block{
+        padding: 0%;
+    }
 }
